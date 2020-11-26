@@ -1,28 +1,4 @@
-#flippy {
-    margin: 0 auto 25px auto;
-    text-align: center;
-    width: 250px;
-}
 
-#flippy button {
-    vertical-align: middle;
-    cursor: pointer;
-    letter-spacing: 0.5px;
-    background: transparent;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 99em;
-    padding: 10px 22px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    margin: 25px auto 0 auto;
-    overflow: hidden;
-    border: 2px solid;
-    outline: none;
-    transition: all .1s;
-}
 
 #flippy button:focus {
     background: transparent;
