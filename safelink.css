@@ -1,11 +1,5 @@
 
 
-#flippy button:focus {
-    background: transparent;
-    color: #fff;
-    outline: none;
-    border: 1px solid;
-}
 
 #flippanel {
     padding: 20px;
