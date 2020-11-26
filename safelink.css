@@ -119,19 +119,7 @@
     margin: 0 5px 0 0;
 }
 
-.panel-body:before {
-    content: '\f0c1';
-    background: rgba(0,0,0,0.05);
-    font-family: fontawesome;
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: #888;
-    padding: 17px 20px;
-    border-radius: 5px 0 0 5px;
-    border-right: 1px solid transparent;
-    transition: all .6s;
-}
+
 
 .panel-body:active:before,.panel-body:focus-within:before {
     content: '\f061';
