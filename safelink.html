@@ -1,0 +1,31 @@
+<div id='flippy'><button> Generate Link</button></div>
+<div id='flippanel'>
+<div class='panel panel-primary'>
+<div class='panel-heading'>
+</div>
+<div class='panel-body'>
+<div class='form-group'>
+<div class='input-group'>
+<input class='form-control' id='generateurl' oninvalid='this.setCustomValidity(&apos;Please Enter valid link&apos;)' placeholder='Enter your link here...' required='required' type='url'/>
+<span class='input-group-btn'>
+<button class='btn btn-primary primary-color primary-color-border' id='btngenerate' oninvalid='this.setCustomValidity(&apos;Please Enter valid link&apos;)' required='required' type='button'>
+<i aria-hidden='true' class='fa fa-shield fa-fw'/> Generate
+            </button>
+</span>
+</div>
+</div>
+<div class='hidden text-center' id='generateloading'><i class='fa fa-cog fa-spin'/></div>
+<div class='hidden' id='generatelink'>
+<div class='form-group has-success'>
+<div class='input-group'>
+<input class='form-control' id='resulturl' onclick='this.focus();this.select()' readonly='readonly' type='text'/>
+</div>
+<br/>
+<div class='text-center'>
+<button class='copytoclipboard btn-sm btn btn-success' data-clipboard-action='copy' data-clipboard-target='#resulturl' id='copytoclipboard'><span class='fa fa-floppy-o'/> Copy URL</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
