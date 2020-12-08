@@ -129,12 +129,12 @@
 }
 
 #generatelink input {
-    background: #ffeaa7;
+    background: #96dc31;
     text-indent: 0;
 }
 
 #generatelink input:hover,#generatelink input:focus {
-    background: #178ac9;
+    background: #a79870;
     border-color: transparent;
     box-shadow: none;
   color:white;
