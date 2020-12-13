@@ -1,8 +1,4 @@
-:root{
---plyr-bg:#cb2027;
 
-
-}
 
 @keyframes plyr-progress {
 	to {
@@ -168,7 +164,7 @@ a.plyr__control::before {
 .plyr--audio .plyr__control.plyr__tab-focus,
 .plyr--audio .plyr__control:hover,
 .plyr--audio .plyr__control[aria-expanded=true] {
-	background: var(--plyr-bg);
+	background: #cb2027;
 	color: #fff
 }
 .plyr--video .plyr__control.plyr__tab-focus,
