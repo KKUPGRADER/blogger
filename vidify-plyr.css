@@ -1,3 +1,9 @@
+:root{
+--plyr-bg:#cb2027;
+
+
+}
+
 @keyframes plyr-progress {
 	to {
 		background-position: 25px 0
